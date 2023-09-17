@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 :root {
     --nav-background: #1992d4;
     --accent-color: #f0b429;
@@ -10,6 +14,14 @@
 
 body {
     font-family: 'Roboto',serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
 }
 
 .container {
@@ -32,6 +44,21 @@ header {
 
 nav ul {
     list-style: none;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.page-title span {
+    font-size: 5rem;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 .dashboard {
