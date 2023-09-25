@@ -42,9 +42,14 @@ header {
     background-color: white;
 }
 
+nav {
+    margin-top: 1.75rem;
+}
+
 nav ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 1.75rem;
+    margin-bottom: 5rem;
 }
 
 .page-title {
@@ -61,6 +66,20 @@ nav ul {
 
 h1 {
     font-size: 2rem;
+}
+
+nav ul li {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+li span.material-symbols-outlined {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-right: 1.8rem;
 }
 
 .dashboard {
