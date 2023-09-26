@@ -110,7 +110,7 @@ li span.material-symbols-outlined {
     display: flex;
     align-items: center;
     gap: 3rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .prof-pic-small {
@@ -135,6 +135,36 @@ li span.material-symbols-outlined {
     height: 4.25rem;
     border-radius: 50%;
     background-color: var(--accent-color);
+}
+
+.greet-name {
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.greet {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.greet-name .name {
+    font-size: 1.75rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-end;
+    gap: 3rem;
+}
+
+button {
+    border: 0;
+    color: white;
+    padding: 0.75rem 0;
+    width: 7rem;
+    border-radius: 5rem;
+    background-color: var(--nav-background);
+    font-weight: bold;
 }
 
 .header-top .material-symbols-outlined {
