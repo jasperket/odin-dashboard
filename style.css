@@ -14,6 +14,7 @@ html {
 
 body {
     font-family: 'Roboto',serif;
+    overflow-x: hidden;
 }
 
 .material-symbols-outlined {
@@ -179,7 +180,7 @@ button {
 .dashboard {
     background-color: var(--db-background);
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
 }
 
 .projects {
@@ -218,7 +219,7 @@ button {
 }
 
 .news {
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 .announcement-heading {
@@ -228,6 +229,26 @@ button {
 .announcements {
     background-color: white;
     min-height: 18rem;
+    padding: 3rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ann-1 h3 {
+    margin-top: 0;
+}
+
+.ann-3 p {
+    margin-bottom: 0;
+}
+
+.announcement h3 {
+    margin-bottom: 0;
+}
+
+.announcement p {
+    margin-top: 0.5rem;
+    color: grey;
 }
 
 .trending-heading {
@@ -237,4 +258,26 @@ button {
 .trending {
     background-color: white;
     min-height: 5.415rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trends {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user h4 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.user p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
